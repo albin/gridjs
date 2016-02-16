@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Grid</title>
+
+	<style>
+		body {
+			font-family: sans-serif;
+		}
+
+		label {
+			cursor: pointer;
+		}
+
+		#wrap {
+			width: 526px;
+		}
+
+		#coords {
+			float: right;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrap">
+		<canvas width="526" height="526" id="canvas"></canvas>
+
+		<div id="coords">
+			<span id="coords-x">-</span>, <span id="coords-y">-</span>
+		</div>
+
+		<div>
+			<label>
+				<input type="checkbox" id="debugging">Debug
+			</label>
+		</div>
+
+
+		<div id="debug-speed-container" style="display: none">
+			<label>
+				Hastighet (ms) <input type="text" id="debug-speed" value="250">
+			</label>
+		</div>
+	</div>
+
+	<script src="grid.js"></script>
+
+	<script>
+		// write your code here
+	</script>
+</body>
+</html>
